@@ -670,9 +670,12 @@
     },
     "real_ray_aiming": {
       "pass": true,
-      "expected": "Real",
+      "expected": "Real with robust aiming and advanced convergence",
       "actual": "Real",
-      "method": "Heuristic"
+      "method": "Heuristic",
+      "use_robust": true,
+      "use_enhanced": false,
+      "use_advanced_convergence": true
     },
     "material_indices": {
       "pass": true,
@@ -720,8 +723,8 @@
     "projection_magnification": {
       "pass": true,
       "expected_absolute": 0.25,
-      "actual_signed": -0.24999980903369676,
-      "chief_ray_image_height_mm": -14.019989290609713
+      "actual_signed": -0.2499998090336968,
+      "chief_ray_image_height_mm": -14.019989290609717
     },
     "surface_count": {
       "pass": true,
