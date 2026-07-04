@@ -1,6 +1,6 @@
 # Patent to Zemax Skill
 
-将公开的光学设计专利转换为可审计的 Zemax OpticStudio 顺序模式模型。项目特别支持旋转对称、纯透射、干式光刻物镜，并保留“专利原文 → 标准化处方 → ZMX → ZOS-API 回读”的完整证据链。
+Codex自己写的skill，可以将公开的光学设计专利转换为可审计的 Zemax OpticStudio 顺序模式模型。目前测试支持比较复杂的光学系统，经过测试可以复现光刻物镜，并保留“专利原文 → 标准化处方 → ZMX → ZOS-API 回读”的完整证据链。
 
 ## 功能
 
@@ -46,9 +46,7 @@ python patent-to-zemax/scripts/export_zosapi_layout.py output/model.zmx --output
 
 专利来源：[EP0770895A2](https://patents.google.com/patent/EP0770895A2/en)。专利原文及其中图表的权利归相应权利人；仓库中的转换代码采用 MIT 许可证。
 
-## 限制
-
-第一版不可靠恢复自由曲面、衍射面、偏心倾斜、非顺序系统或处方信息不完整的实施例。ZMX 成功打开只证明结构回读通过，不等同于专利级像差性能已经复现。
+193物镜的效果更好，复现出来基本像质达标，可以看patent-to-zemax/validation中另一个美国专利
 
 ## License
 
