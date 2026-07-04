@@ -6,4 +6,5 @@ tmp/
 archive/
 packages/*.zip
 *.ZDA
+*.CFG
 *.bak
