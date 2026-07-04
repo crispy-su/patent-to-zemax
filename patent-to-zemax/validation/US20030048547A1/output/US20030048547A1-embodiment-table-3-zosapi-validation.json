@@ -1,0 +1,768 @@
+{
+  "status": "passed",
+  "opticstudio_root": "C:\\Program Files\\Ansys Zemax OpticStudio 2024 R1.00",
+  "checks": {
+    "surface_roundtrip": {
+      "pass": true,
+      "count": 63,
+      "details": [
+        {
+          "surface": 1,
+          "radius_expected": -163.893583594,
+          "radius_actual": -163.893583594,
+          "thickness_expected": 7.0,
+          "thickness_actual": 7.0,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 62.298,
+          "semi_diameter_actual": 62.298
+        },
+        {
+          "surface": 2,
+          "radius_expected": 543.2768689,
+          "radius_actual": 543.2768689000009,
+          "thickness_expected": 6.914746504,
+          "thickness_actual": 6.914746504,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 68.527,
+          "semi_diameter_actual": 68.527
+        },
+        {
+          "surface": 3,
+          "radius_expected": 4925.150504439,
+          "radius_actual": 4925.150504439009,
+          "thickness_expected": 17.003634307,
+          "thickness_actual": 17.003634307,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 70.2,
+          "semi_diameter_actual": 70.2
+        },
+        {
+          "surface": 4,
+          "radius_expected": -237.663812578,
+          "radius_actual": -237.66381257800018,
+          "thickness_expected": 0.7,
+          "thickness_actual": 0.7,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 71.892,
+          "semi_diameter_actual": 71.892
+        },
+        {
+          "surface": 5,
+          "radius_expected": 1399.349047982,
+          "radius_actual": 1399.349047982001,
+          "thickness_expected": 18.279497082,
+          "thickness_actual": 18.279497082,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 76.26,
+          "semi_diameter_actual": 76.26
+        },
+        {
+          "surface": 6,
+          "radius_expected": -282.82229696,
+          "radius_actual": -282.8222969599998,
+          "thickness_expected": 0.700000001,
+          "thickness_actual": 0.700000001,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 77.21,
+          "semi_diameter_actual": 77.21
+        },
+        {
+          "surface": 7,
+          "radius_expected": 485.041831962,
+          "radius_actual": 485.0418319619999,
+          "thickness_expected": 19.095677657,
+          "thickness_actual": 19.095677657,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 79.259,
+          "semi_diameter_actual": 79.259
+        },
+        {
+          "surface": 8,
+          "radius_expected": -448.790019973,
+          "radius_actual": -448.7900199729996,
+          "thickness_expected": 0.7,
+          "thickness_actual": 0.7,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 79.327,
+          "semi_diameter_actual": 79.327
+        },
+        {
+          "surface": 9,
+          "radius_expected": 261.052873524,
+          "radius_actual": 261.0528735240002,
+          "thickness_expected": 21.940801476,
+          "thickness_actual": 21.940801476,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 77.716,
+          "semi_diameter_actual": 77.716
+        },
+        {
+          "surface": 10,
+          "radius_expected": -776.40347841,
+          "radius_actual": -776.4034784100021,
+          "thickness_expected": 0.7,
+          "thickness_actual": 0.7,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 76.687,
+          "semi_diameter_actual": 76.687
+        },
+        {
+          "surface": 11,
+          "radius_expected": 210.308913355,
+          "radius_actual": 210.3089133550002,
+          "thickness_expected": 25.735549153,
+          "thickness_actual": 25.735549153,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 71.175,
+          "semi_diameter_actual": 71.175
+        },
+        {
+          "surface": 12,
+          "radius_expected": 99.341848189,
+          "radius_actual": 99.34184818899955,
+          "thickness_expected": 22.473973608,
+          "thickness_actual": 22.473973608,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 59.883,
+          "semi_diameter_actual": 59.883
+        },
+        {
+          "surface": 13,
+          "radius_expected": "infinity",
+          "radius_actual": "infinity",
+          "thickness_expected": 8.009409065,
+          "thickness_actual": 8.009409065,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 59.565,
+          "semi_diameter_actual": 59.565
+        },
+        {
+          "surface": 14,
+          "radius_expected": 130.189257019,
+          "radius_actual": 130.18925701900002,
+          "thickness_expected": 24.765647204,
+          "thickness_actual": 24.765647204,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 57.743,
+          "semi_diameter_actual": 57.743
+        },
+        {
+          "surface": 15,
+          "radius_expected": -236.04420076,
+          "radius_actual": -236.04420076,
+          "thickness_expected": 7.570027862,
+          "thickness_actual": 7.570027862,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 58.334,
+          "semi_diameter_actual": 58.334
+        },
+        {
+          "surface": 16,
+          "radius_expected": 225.745307153,
+          "radius_actual": 225.74530715299983,
+          "thickness_expected": 1.721089583,
+          "thickness_actual": 1.721089583,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 62.796,
+          "semi_diameter_actual": 62.796
+        },
+        {
+          "surface": 17,
+          "radius_expected": 249.257978944,
+          "radius_actual": 249.25797894400029,
+          "thickness_expected": 10.0,
+          "thickness_actual": 10.0,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 63.335,
+          "semi_diameter_actual": 63.335
+        },
+        {
+          "surface": 18,
+          "radius_expected": 290.876194298,
+          "radius_actual": 290.8761942980002,
+          "thickness_expected": 26.689502502,
+          "thickness_actual": 26.689502502,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 65.179,
+          "semi_diameter_actual": 65.179
+        },
+        {
+          "surface": 19,
+          "radius_expected": -157.850195148,
+          "radius_actual": -157.85019514800007,
+          "thickness_expected": 8.0,
+          "thickness_actual": 8.0,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 67.322,
+          "semi_diameter_actual": 67.322
+        },
+        {
+          "surface": 20,
+          "radius_expected": -343.08973,
+          "radius_actual": -343.08972999999986,
+          "thickness_expected": 21.241706809,
+          "thickness_actual": 21.241706809,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 74.633,
+          "semi_diameter_actual": 74.633
+        },
+        {
+          "surface": 21,
+          "radius_expected": -300.686931187,
+          "radius_actual": -300.68693118699974,
+          "thickness_expected": 19.035466008,
+          "thickness_actual": 19.035466008,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 85.971,
+          "semi_diameter_actual": 85.971
+        },
+        {
+          "surface": 22,
+          "radius_expected": -166.339801171,
+          "radius_actual": -166.33980117100012,
+          "thickness_expected": 1.155814165,
+          "thickness_actual": 1.155814165,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 88.981,
+          "semi_diameter_actual": 88.981
+        },
+        {
+          "surface": 23,
+          "radius_expected": 1242.960741027,
+          "radius_actual": 1242.9607410270005,
+          "thickness_expected": 39.709671515,
+          "thickness_actual": 39.709671515,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 103.381,
+          "semi_diameter_actual": 103.381
+        },
+        {
+          "surface": 24,
+          "radius_expected": -217.561562194,
+          "radius_actual": -217.56156219400023,
+          "thickness_expected": 0.7,
+          "thickness_actual": 0.7,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 105.365,
+          "semi_diameter_actual": 105.365
+        },
+        {
+          "surface": 25,
+          "radius_expected": 873.041438293,
+          "radius_actual": 873.0414382929987,
+          "thickness_expected": 28.702760134,
+          "thickness_actual": 28.702760134,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 108.135,
+          "semi_diameter_actual": 108.135
+        },
+        {
+          "surface": 26,
+          "radius_expected": -394.309651697,
+          "radius_actual": -394.30965169699965,
+          "thickness_expected": 0.700000002,
+          "thickness_actual": 0.700000002,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 108.176,
+          "semi_diameter_actual": 108.176
+        },
+        {
+          "surface": 27,
+          "radius_expected": 168.490233663,
+          "radius_actual": 168.49023366299994,
+          "thickness_expected": 42.038473874,
+          "thickness_actual": 42.038473874,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 100.522,
+          "semi_diameter_actual": 100.522
+        },
+        {
+          "surface": 28,
+          "radius_expected": "infinity",
+          "radius_actual": "infinity",
+          "thickness_expected": 13.298461584,
+          "thickness_actual": 13.298461584,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 97.459,
+          "semi_diameter_actual": 97.459
+        },
+        {
+          "surface": 29,
+          "radius_expected": 198.769354524,
+          "radius_actual": 198.76935452400002,
+          "thickness_expected": 7.491654073,
+          "thickness_actual": 7.491654073,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 79.508,
+          "semi_diameter_actual": 79.508
+        },
+        {
+          "surface": 30,
+          "radius_expected": 127.110375082,
+          "radius_actual": 127.11037508200006,
+          "thickness_expected": 32.181225955,
+          "thickness_actual": 32.181225955,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 72.267,
+          "semi_diameter_actual": 72.267
+        },
+        {
+          "surface": 31,
+          "radius_expected": -412.500785204,
+          "radius_actual": -412.50078520400086,
+          "thickness_expected": 6.0,
+          "thickness_actual": 6.0,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 70.633,
+          "semi_diameter_actual": 70.633
+        },
+        {
+          "surface": 32,
+          "radius_expected": 396.017439811,
+          "radius_actual": 396.01743981100054,
+          "thickness_expected": 16.248991558,
+          "thickness_actual": 16.248991558,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 67.019,
+          "semi_diameter_actual": 67.019
+        },
+        {
+          "surface": 33,
+          "radius_expected": -267.221433894,
+          "radius_actual": -267.22143389399974,
+          "thickness_expected": 6.0,
+          "thickness_actual": 6.0,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 66.551,
+          "semi_diameter_actual": 66.551
+        },
+        {
+          "surface": 34,
+          "radius_expected": 168.512314408,
+          "radius_actual": 168.5123144080001,
+          "thickness_expected": 36.354622161,
+          "thickness_actual": 36.354622161,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 65.389,
+          "semi_diameter_actual": 65.389
+        },
+        {
+          "surface": 35,
+          "radius_expected": -122.758597736,
+          "radius_actual": -122.75859773600004,
+          "thickness_expected": 6.049883829,
+          "thickness_actual": 6.049883829,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 66.079,
+          "semi_diameter_actual": 66.079
+        },
+        {
+          "surface": 36,
+          "radius_expected": 766.5236441,
+          "radius_actual": 766.5236440999979,
+          "thickness_expected": 27.03340106,
+          "thickness_actual": 27.03340106,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 75.781,
+          "semi_diameter_actual": 75.781
+        },
+        {
+          "surface": 37,
+          "radius_expected": -159.522,
+          "radius_actual": -159.52200000000005,
+          "thickness_expected": 16.39494469,
+          "thickness_actual": 16.39494469,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 77.809,
+          "semi_diameter_actual": 77.809
+        },
+        {
+          "surface": 38,
+          "radius_expected": -155.641,
+          "radius_actual": -155.64099999999996,
+          "thickness_expected": 0.7,
+          "thickness_actual": 0.7,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 84.996,
+          "semi_diameter_actual": 84.996
+        },
+        {
+          "surface": 39,
+          "radius_expected": "infinity",
+          "radius_actual": "infinity",
+          "thickness_expected": 27.995555874,
+          "thickness_actual": 27.995555874,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 101.051,
+          "semi_diameter_actual": 101.051
+        },
+        {
+          "surface": 40,
+          "radius_expected": -266.01673868,
+          "radius_actual": -266.0167386799999,
+          "thickness_expected": 0.890470375,
+          "thickness_actual": 0.890470375,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 103.561,
+          "semi_diameter_actual": 103.561
+        },
+        {
+          "surface": 41,
+          "radius_expected": "infinity",
+          "radius_actual": "infinity",
+          "thickness_expected": 30.098513441,
+          "thickness_actual": 30.098513441,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 110.668,
+          "semi_diameter_actual": 110.668
+        },
+        {
+          "surface": 42,
+          "radius_expected": -290.83648517,
+          "radius_actual": -290.83648517,
+          "thickness_expected": 7.00000001,
+          "thickness_actual": 7.00000001,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 112.215,
+          "semi_diameter_actual": 112.215
+        },
+        {
+          "surface": 43,
+          "radius_expected": "infinity",
+          "radius_actual": "infinity",
+          "thickness_expected": 0.431524267,
+          "thickness_actual": 0.431524267,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 115.718,
+          "semi_diameter_actual": 115.718
+        },
+        {
+          "surface": 44,
+          "radius_expected": 1323.425726038,
+          "radius_actual": 1323.4257260379998,
+          "thickness_expected": 33.775984345,
+          "thickness_actual": 33.775984345,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 119.885,
+          "semi_diameter_actual": 119.885
+        },
+        {
+          "surface": 45,
+          "radius_expected": -354.247417821,
+          "radius_actual": -354.2474178210001,
+          "thickness_expected": 0.7,
+          "thickness_actual": 0.7,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 120.693,
+          "semi_diameter_actual": 120.693
+        },
+        {
+          "surface": 46,
+          "radius_expected": 253.851238303,
+          "radius_actual": 253.85123830300026,
+          "thickness_expected": 43.981502597,
+          "thickness_actual": 43.981502597,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 119.436,
+          "semi_diameter_actual": 119.436
+        },
+        {
+          "surface": 47,
+          "radius_expected": -1091.287744312,
+          "radius_actual": -1091.2877443119996,
+          "thickness_expected": 24.113176044,
+          "thickness_actual": 24.113176044,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 117.882,
+          "semi_diameter_actual": 117.882
+        },
+        {
+          "surface": 48,
+          "radius_expected": -256.378455601,
+          "radius_actual": -256.378455601,
+          "thickness_expected": 10.108953957,
+          "thickness_actual": 10.108953957,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 116.975,
+          "semi_diameter_actual": 116.975
+        },
+        {
+          "surface": 49,
+          "radius_expected": 510547.419151742,
+          "radius_actual": 510547.4191517416,
+          "thickness_expected": 13.749960972,
+          "thickness_actual": 13.749960972,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 115.781,
+          "semi_diameter_actual": 115.781
+        },
+        {
+          "surface": 50,
+          "radius_expected": -549.718956763,
+          "radius_actual": -549.7189567630006,
+          "thickness_expected": 46.950737825,
+          "thickness_actual": 46.950737825,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 115.712,
+          "semi_diameter_actual": 115.712
+        },
+        {
+          "surface": 51,
+          "radius_expected": -237.550046531,
+          "radius_actual": -237.55004653100028,
+          "thickness_expected": 0.733009323,
+          "thickness_actual": 0.733009323,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 117.03,
+          "semi_diameter_actual": 117.03
+        },
+        {
+          "surface": 52,
+          "radius_expected": 152.354106326,
+          "radius_actual": 152.35410632600002,
+          "thickness_expected": 27.736146606,
+          "thickness_actual": 27.736146606,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 98.476,
+          "semi_diameter_actual": 98.476
+        },
+        {
+          "surface": 53,
+          "radius_expected": 340.293718782,
+          "radius_actual": 340.29371878200004,
+          "thickness_expected": 0.709804301,
+          "thickness_actual": 0.709804301,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 95.981,
+          "semi_diameter_actual": 95.981
+        },
+        {
+          "surface": 54,
+          "radius_expected": 131.460836161,
+          "radius_actual": 131.460836161,
+          "thickness_expected": 25.026141744,
+          "thickness_actual": 25.026141744,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 85.578,
+          "semi_diameter_actual": 85.578
+        },
+        {
+          "surface": 55,
+          "radius_expected": 293.107264484,
+          "radius_actual": 293.1072644839999,
+          "thickness_expected": 10.40479883,
+          "thickness_actual": 10.40479883,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 82.205,
+          "semi_diameter_actual": 82.205
+        },
+        {
+          "surface": 56,
+          "radius_expected": 1251.239137872,
+          "radius_actual": 1251.2391378720004,
+          "thickness_expected": 12.817811407,
+          "thickness_actual": 12.817811407,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 81.001,
+          "semi_diameter_actual": 81.001
+        },
+        {
+          "surface": 57,
+          "radius_expected": 260.342262866,
+          "radius_actual": 260.3422628660002,
+          "thickness_expected": 1.378798137,
+          "thickness_actual": 1.378798137,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 70.436,
+          "semi_diameter_actual": 70.436
+        },
+        {
+          "surface": 58,
+          "radius_expected": 130.810580199,
+          "radius_actual": 130.81058019900004,
+          "thickness_expected": 34.683194416,
+          "thickness_actual": 34.683194416,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 64.39,
+          "semi_diameter_actual": 64.39
+        },
+        {
+          "surface": 59,
+          "radius_expected": 55.085948639,
+          "radius_actual": 55.08594863900006,
+          "thickness_expected": 0.7,
+          "thickness_actual": 0.7,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 41.181,
+          "semi_diameter_actual": 41.181
+        },
+        {
+          "surface": 60,
+          "radius_expected": 52.721068002,
+          "radius_actual": 52.72106800199997,
+          "thickness_expected": 33.14044695,
+          "thickness_actual": 33.14044695,
+          "material": "1.50,0.0",
+          "semi_diameter_expected": 40.631,
+          "semi_diameter_actual": 40.631
+        },
+        {
+          "surface": 61,
+          "radius_expected": 357.005545933,
+          "radius_actual": 357.0055459330006,
+          "thickness_expected": 2.868260812,
+          "thickness_actual": 2.868260812,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 30.936,
+          "semi_diameter_actual": 30.936
+        },
+        {
+          "surface": 62,
+          "radius_expected": "infinity",
+          "radius_actual": "infinity",
+          "thickness_expected": 3.0,
+          "thickness_actual": 3.0,
+          "material": "1.56,0.0",
+          "semi_diameter_expected": 29.212,
+          "semi_diameter_actual": 29.212
+        },
+        {
+          "surface": 63,
+          "radius_expected": "infinity",
+          "radius_actual": "infinity",
+          "thickness_expected": 12.0,
+          "thickness_actual": 12.0,
+          "material": "1.00,0.0",
+          "semi_diameter_expected": 27.572,
+          "semi_diameter_actual": 27.572
+        }
+      ]
+    },
+    "field_object_heights_mm": {
+      "pass": true,
+      "expected": [
+        0.0,
+        52.0,
+        56.08
+      ],
+      "actual": [
+        0.0,
+        52.0,
+        56.08
+      ]
+    },
+    "wavelength_um": {
+      "pass": true,
+      "expected": 0.193304,
+      "actual": 0.193304
+    },
+    "active_wavelength_count": {
+      "pass": true,
+      "expected": 1,
+      "actual": 1
+    },
+    "image_space_na": {
+      "pass": true,
+      "expected": 0.75,
+      "actual": 0.7499999999999994,
+      "zemax_aperture_type": "ObjectSpaceNA",
+      "zemax_aperture_value": 0.2727267117745491
+    },
+    "real_ray_aiming": {
+      "pass": true,
+      "expected": "Real",
+      "actual": "Real",
+      "method": "Heuristic"
+    },
+    "material_indices": {
+      "pass": true,
+      "details": [
+        {
+          "key": "sio2",
+          "surface": 1,
+          "pass": true,
+          "expected": 1.56028895,
+          "actual": 1.56028895,
+          "material": "___BLANK"
+        },
+        {
+          "key": "caf2",
+          "surface": 60,
+          "pass": true,
+          "expected": 1.50143563,
+          "actual": 1.50143563,
+          "material": "___BLANK"
+        },
+        {
+          "key": "he",
+          "surface": 2,
+          "pass": true,
+          "expected": 0.999712,
+          "actual": 0.999712,
+          "material": "___BLANK"
+        },
+        {
+          "key": "l710",
+          "surface": 63,
+          "pass": true,
+          "expected": 0.999982,
+          "actual": 0.999982,
+          "material": "___BLANK"
+        }
+      ]
+    },
+    "total_track_mm": {
+      "pass": true,
+      "expected": 1000.0,
+      "actual": 1000.000999994,
+      "difference": 0.0009999940000398055
+    },
+    "projection_magnification": {
+      "pass": true,
+      "expected_absolute": 0.25,
+      "actual_signed": -0.24999980903369676,
+      "chief_ray_image_height_mm": -14.019989290609713
+    },
+    "surface_count": {
+      "pass": true,
+      "expected": 65,
+      "actual": 65
+    },
+    "stop_surface": {
+      "pass": true,
+      "expected": 43,
+      "actual": 43
+    },
+    "asphere_supported_terms": {
+      "pass": true,
+      "details": [
+        {
+          "surface": 20,
+          "type": "EvenAspheric",
+          "interpretation": "Zernike values retained as alternate characterization and not added twice",
+          "zernike_characterization_terms": [
+            9,
+            16,
+            25,
+            36,
+            49
+          ],
+          "normalization_radius_mm": 74.633,
+          "effective_r2_to_r16": [
+            0.0,
+            4.0139591e-08,
+            1.1813452e-13,
+            4.5259406e-17,
+            -2.9594697e-21,
+            1.1174026e-24,
+            -6.2923812e-29,
+            0.0
+          ]
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "system_file": "C:\\Users\\smx\\Documents\\专利转为ZEMAX文件\\patent-to-zemax\\validation\\US20030048547A1\\output\\US20030048547A1-embodiment-table-3.zmx"
+}

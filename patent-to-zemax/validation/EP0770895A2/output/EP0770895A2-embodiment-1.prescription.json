@@ -1,0 +1,490 @@
+{
+  "patent_id": "EP0770895A2",
+  "embodiment": 1,
+  "direction": "mask_to_wafer",
+  "wavelength_um": 0.2484,
+  "magnification": 0.25,
+  "magnification_tolerance": 0.001,
+  "field": {
+    "type": "object_height",
+    "object_heights_mm": [
+      0.0,
+      36.96,
+      52.8
+    ],
+    "image_heights_mm": [
+      0.0,
+      9.24,
+      13.2
+    ]
+  },
+  "image_space_na": 0.6,
+  "object_distance_mm": 95.002,
+  "back_focal_distance_mm": 20.93,
+  "total_track_mm": 1000.0,
+  "total_track_tolerance_mm": 0.01,
+  "stop_surface": 37,
+  "material": {
+    "patent_description": "synthetic quartz SiO2",
+    "patent_index": 1.50839,
+    "zemax_catalog": "MISC",
+    "zemax_name": "F_SILICA",
+    "index_tolerance": 0.0001
+  },
+  "surfaces": [
+    {
+      "number": 1,
+      "radius_mm": 644.7879,
+      "thickness_mm": 10.0,
+      "index_after": 1.50839,
+      "source_page": 11
+    },
+    {
+      "number": 2,
+      "radius_mm": 332.4125,
+      "thickness_mm": 5.236,
+      "index_after": 1.0,
+      "source_page": 11
+    },
+    {
+      "number": 3,
+      "radius_mm": 489.4379,
+      "thickness_mm": 22.153,
+      "index_after": 1.50839,
+      "source_page": 11
+    },
+    {
+      "number": 4,
+      "radius_mm": -343.9589,
+      "thickness_mm": 1.0,
+      "index_after": 1.0,
+      "source_page": 11
+    },
+    {
+      "number": 5,
+      "radius_mm": 300.6049,
+      "thickness_mm": 21.654,
+      "index_after": 1.50839,
+      "source_page": 11
+    },
+    {
+      "number": 6,
+      "radius_mm": -754.9399,
+      "thickness_mm": 1.0,
+      "index_after": 1.0,
+      "source_page": 11
+    },
+    {
+      "number": 7,
+      "radius_mm": 210.3952,
+      "thickness_mm": 21.411,
+      "index_after": 1.50839,
+      "source_page": 11
+    },
+    {
+      "number": 8,
+      "radius_mm": -10084.177,
+      "thickness_mm": 1.0,
+      "index_after": 1.0,
+      "source_page": 11
+    },
+    {
+      "number": 9,
+      "radius_mm": 168.8944,
+      "thickness_mm": 12.667,
+      "index_after": 1.50839,
+      "source_page": 11
+    },
+    {
+      "number": 10,
+      "radius_mm": 91.8488,
+      "thickness_mm": 25.761,
+      "index_after": 1.0,
+      "source_page": 11
+    },
+    {
+      "number": 11,
+      "radius_mm": 2506.147,
+      "thickness_mm": 11.953,
+      "index_after": 1.50839,
+      "source_page": 11
+    },
+    {
+      "number": 12,
+      "radius_mm": 113.1104,
+      "thickness_mm": 26.722,
+      "index_after": 1.0,
+      "source_page": 11
+    },
+    {
+      "number": 13,
+      "radius_mm": -205.9002,
+      "thickness_mm": 10.0,
+      "index_after": 1.50839,
+      "source_page": 11
+    },
+    {
+      "number": 14,
+      "radius_mm": 203.1437,
+      "thickness_mm": 25.66,
+      "index_after": 1.0,
+      "source_page": 11
+    },
+    {
+      "number": 15,
+      "radius_mm": -107.1775,
+      "thickness_mm": 12.552,
+      "index_after": 1.50839,
+      "source_page": 11
+    },
+    {
+      "number": 16,
+      "radius_mm": -1383.124,
+      "thickness_mm": 13.743,
+      "index_after": 1.0,
+      "source_page": 11
+    },
+    {
+      "number": 17,
+      "radius_mm": -199.1651,
+      "thickness_mm": 18.849,
+      "index_after": 1.50839,
+      "source_page": 11
+    },
+    {
+      "number": 18,
+      "radius_mm": -146.9585,
+      "thickness_mm": 1.0,
+      "index_after": 1.0,
+      "source_page": 11
+    },
+    {
+      "number": 19,
+      "radius_mm": 1633.508,
+      "thickness_mm": 36.177,
+      "index_after": 1.50839,
+      "source_page": 11
+    },
+    {
+      "number": 20,
+      "radius_mm": -193.2242,
+      "thickness_mm": 1.0,
+      "index_after": 1.0,
+      "source_page": 12
+    },
+    {
+      "number": 21,
+      "radius_mm": 413.9511,
+      "thickness_mm": 37.469,
+      "index_after": 1.50839,
+      "source_page": 12
+    },
+    {
+      "number": 22,
+      "radius_mm": -357.2763,
+      "thickness_mm": 1.0,
+      "index_after": 1.0,
+      "source_page": 12
+    },
+    {
+      "number": 23,
+      "radius_mm": 354.2471,
+      "thickness_mm": 30.129,
+      "index_after": 1.50839,
+      "source_page": 12
+    },
+    {
+      "number": 24,
+      "radius_mm": -861.1354,
+      "thickness_mm": 1.0,
+      "index_after": 1.0,
+      "source_page": 12
+    },
+    {
+      "number": 25,
+      "radius_mm": 212.5816,
+      "thickness_mm": 26.345,
+      "index_after": 1.50839,
+      "source_page": 12
+    },
+    {
+      "number": 26,
+      "radius_mm": 356.7634,
+      "thickness_mm": 2.859,
+      "index_after": 1.0,
+      "source_page": 12
+    },
+    {
+      "number": 27,
+      "radius_mm": 143.8041,
+      "thickness_mm": 17.274,
+      "index_after": 1.50839,
+      "source_page": 12
+    },
+    {
+      "number": 28,
+      "radius_mm": 124.1645,
+      "thickness_mm": 13.618,
+      "index_after": 1.0,
+      "source_page": 12
+    },
+    {
+      "number": 29,
+      "radius_mm": 180.7435,
+      "thickness_mm": 16.532,
+      "index_after": 1.50839,
+      "source_page": 12
+    },
+    {
+      "number": 30,
+      "radius_mm": 112.4036,
+      "thickness_mm": 32.761,
+      "index_after": 1.0,
+      "source_page": 12
+    },
+    {
+      "number": 31,
+      "radius_mm": -167.6385,
+      "thickness_mm": 10.0,
+      "index_after": 1.50839,
+      "source_page": 12
+    },
+    {
+      "number": 32,
+      "radius_mm": 213.1012,
+      "thickness_mm": 28.093,
+      "index_after": 1.0,
+      "source_page": 12
+    },
+    {
+      "number": 33,
+      "radius_mm": -117.6042,
+      "thickness_mm": 14.657,
+      "index_after": 1.50839,
+      "source_page": 12
+    },
+    {
+      "number": 34,
+      "radius_mm": 5213.975,
+      "thickness_mm": 17.248,
+      "index_after": 1.0,
+      "source_page": 12
+    },
+    {
+      "number": 35,
+      "radius_mm": -276.3001,
+      "thickness_mm": 16.851,
+      "index_after": 1.50839,
+      "source_page": 12
+    },
+    {
+      "number": 36,
+      "radius_mm": -195.8018,
+      "thickness_mm": 23.163,
+      "index_after": 1.0,
+      "source_page": 12
+    },
+    {
+      "number": 37,
+      "radius_mm": -922.636,
+      "thickness_mm": 28.973,
+      "index_after": 1.50839,
+      "source_page": 12
+    },
+    {
+      "number": 38,
+      "radius_mm": -185.4831,
+      "thickness_mm": 1.0,
+      "index_after": 1.0,
+      "source_page": 12
+    },
+    {
+      "number": 39,
+      "radius_mm": 494.8513,
+      "thickness_mm": 30.0,
+      "index_after": 1.50839,
+      "source_page": 12
+    },
+    {
+      "number": 40,
+      "radius_mm": -807.7331,
+      "thickness_mm": 1.0,
+      "index_after": 1.0,
+      "source_page": 12
+    },
+    {
+      "number": 41,
+      "radius_mm": 332.863,
+      "thickness_mm": 35.786,
+      "index_after": 1.50839,
+      "source_page": 12
+    },
+    {
+      "number": 42,
+      "radius_mm": -479.989,
+      "thickness_mm": 12.295,
+      "index_after": 1.0,
+      "source_page": 12
+    },
+    {
+      "number": 43,
+      "radius_mm": -258.4556,
+      "thickness_mm": 18.0,
+      "index_after": 1.50839,
+      "source_page": 12
+    },
+    {
+      "number": 44,
+      "radius_mm": -912.7617,
+      "thickness_mm": 1.0,
+      "index_after": 1.0,
+      "source_page": 12
+    },
+    {
+      "number": 45,
+      "radius_mm": 317.7747,
+      "thickness_mm": 35.863,
+      "index_after": 1.50839,
+      "source_page": 12
+    },
+    {
+      "number": 46,
+      "radius_mm": -508.2967,
+      "thickness_mm": 1.0,
+      "index_after": 1.0,
+      "source_page": 13
+    },
+    {
+      "number": 47,
+      "radius_mm": 138.8578,
+      "thickness_mm": 27.975,
+      "index_after": 1.50839,
+      "source_page": 13
+    },
+    {
+      "number": 48,
+      "radius_mm": 275.8559,
+      "thickness_mm": 1.0,
+      "index_after": 1.0,
+      "source_page": 13
+    },
+    {
+      "number": 49,
+      "radius_mm": 130.7218,
+      "thickness_mm": 39.838,
+      "index_after": 1.50839,
+      "source_page": 13
+    },
+    {
+      "number": 50,
+      "radius_mm": 256.2264,
+      "thickness_mm": 9.31,
+      "index_after": 1.0,
+      "source_page": 13
+    },
+    {
+      "number": 51,
+      "radius_mm": 1265.876,
+      "thickness_mm": 36.609,
+      "index_after": 1.50839,
+      "source_page": 13
+    },
+    {
+      "number": 52,
+      "radius_mm": 50.0034,
+      "thickness_mm": 13.611,
+      "index_after": 1.0,
+      "source_page": 13
+    },
+    {
+      "number": 53,
+      "radius_mm": 50.0565,
+      "thickness_mm": 22.273,
+      "index_after": 1.50839,
+      "source_page": 13
+    },
+    {
+      "number": 54,
+      "radius_mm": 1595.011,
+      "thickness_mm": 20.93,
+      "index_after": 1.0,
+      "source_page": 13
+    }
+  ],
+  "evidence": [
+    {
+      "field": "surfaces[1..54].radius_mm/thickness_mm/index_after",
+      "classification": "copied",
+      "confidence": 0.99,
+      "reason": "Visually transcribed and cross-checked against Table 1-1 rendered pages",
+      "source_page": 11,
+      "source_location": "Table 1-1, continued on pages 12-13"
+    },
+    {
+      "field": "object_distance_mm, back_focal_distance_mm, magnification, image_space_na",
+      "classification": "copied",
+      "confidence": 0.99,
+      "reason": "Printed in Specifications of First Embodiment",
+      "source_page": 11,
+      "source_location": "Table 1-1 header"
+    },
+    {
+      "field": "wavelength_um",
+      "classification": "copied",
+      "confidence": 0.99,
+      "reason": "Patent states exposure wavelength 248.4 nm",
+      "source_page": 8,
+      "source_location": "Detailed description"
+    },
+    {
+      "field": "field.image_heights_mm",
+      "classification": "copied",
+      "confidence": 0.99,
+      "reason": "Aberration figures label Y=0, 9.24, 13.2 mm",
+      "source_page": 30,
+      "source_location": "Figs. 8-10"
+    },
+    {
+      "field": "field.object_heights_mm",
+      "classification": "derived",
+      "confidence": 0.98,
+      "reason": "Mask-side object heights derived from patent image heights and 1/4 reduction",
+      "source_page": 30,
+      "source_location": "Figs. 8-10 and Table 1-1",
+      "calculation": "[0, 9.24, 13.2] / 0.25 = [0, 36.96, 52.8] mm"
+    },
+    {
+      "field": "material.zemax_name",
+      "classification": "inferred",
+      "confidence": 0.95,
+      "reason": "Patent says synthetic quartz SiO2; mapped to Zemax MISC/F_SILICA and index is checked at 0.2484 um",
+      "source_page": 10,
+      "source_location": "Table definitions"
+    },
+    {
+      "field": "total_track_mm",
+      "classification": "derived",
+      "confidence": 0.97,
+      "reason": "Sum of rounded table spacings is 1000.002 mm versus printed L=1000 mm; accepted as table-rounding closure",
+      "source_page": 11,
+      "source_location": "Table 1-1",
+      "calculation": "d0 + sum(d1..d54) = 1000.002 mm; printed L = 1000 mm"
+    },
+    {
+      "field": "stop_surface",
+      "classification": "inferred",
+      "confidence": 0.65,
+      "reason": "Patent locates AS between L51 and L52 but gives no axial stop coordinate; reconstruction coincides stop with the object-side surface of L52",
+      "source_page": 9,
+      "source_location": "Description and Fig. 4"
+    },
+    {
+      "field": "surfaces[*].semi_diameter_mm",
+      "classification": "inferred",
+      "confidence": 0.6,
+      "reason": "Patent omits clear apertures; OpticStudio automatic semi-diameters are used after field and NA setup",
+      "source_page": null,
+      "source_location": "Not specified"
+    }
+  ]
+}

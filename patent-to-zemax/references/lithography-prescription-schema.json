@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["patent_id", "embodiment", "direction", "wavelength_um", "magnification", "field", "image_space_na", "object_distance_mm", "back_focal_distance_mm", "surfaces", "evidence"],
+  "properties": {
+    "patent_id": {"type": "string"},
+    "embodiment": {"type": ["integer", "string"]},
+    "direction": {"const": "mask_to_wafer"},
+    "wavelength_um": {"type": "number", "exclusiveMinimum": 0},
+    "magnification": {"type": "number"},
+    "image_space_na": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+    "field": {"type": "object", "required": ["type", "object_heights_mm"], "properties": {"type": {"const": "object_height"}, "object_heights_mm": {"type": "array", "minItems": 1, "items": {"type": "number"}}, "image_heights_mm": {"type": "array", "items": {"type": "number"}}}},
+    "object_distance_mm": {"type": "number"},
+    "back_focal_distance_mm": {"type": "number"},
+    "total_track_mm": {"type": "number"},
+    "material": {"type": "object"},
+    "materials": {"type": "object", "additionalProperties": {"type": "object", "required": ["patent_index", "zemax_name", "index_tolerance"], "properties": {"patent_index": {"type": "number"}, "zemax_name": {"type": "string"}, "zemax_mode": {"enum": ["catalog", "model"]}, "index_tolerance": {"type": "number"}, "catalog_candidate_rejected": {"type": "string"}, "catalog_rejection_reason": {"type": "string"}}}},
+    "stop_surface": {"type": "integer"},
+    "surfaces": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["number", "radius_mm", "thickness_mm", "index_after"], "properties": {"number": {"type": "integer"}, "radius_mm": {"type": ["number", "string"]}, "thickness_mm": {"type": "number"}, "index_after": {"type": "number"}, "material_key": {"type": "string"}, "semi_diameter_mm": {"type": "number"}, "source_page": {"type": "integer"}, "source_pdf_page": {"type": "integer"}, "source_printed_page": {"type": "integer"}, "asphere": {"type": "object"}}}},
+    "evidence": {"type": "array", "items": {"type": "object", "required": ["field", "classification", "confidence", "reason"], "properties": {"field": {"type": "string"}, "classification": {"enum": ["copied", "derived", "inferred"]}, "confidence": {"type": "number", "minimum": 0, "maximum": 1}, "reason": {"type": "string"}, "source_page": {"type": ["integer", "null"]}, "source_location": {"type": "string"}, "calculation": {"type": "string"}}}}
+  }
+}

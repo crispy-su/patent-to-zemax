@@ -1,0 +1,633 @@
+{
+  "status": "passed",
+  "opticstudio_root": "C:\\Program Files\\Ansys Zemax OpticStudio 2024 R1.00",
+  "checks": {
+    "surface_roundtrip": {
+      "pass": true,
+      "count": 54,
+      "details": [
+        {
+          "surface": 1,
+          "radius_expected": 644.7879,
+          "radius_actual": 644.7878999999987,
+          "thickness_expected": 10.0,
+          "thickness_actual": 10.0,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 70.83980146994412
+        },
+        {
+          "surface": 2,
+          "radius_expected": 332.4125,
+          "radius_actual": 332.4124999999998,
+          "thickness_expected": 5.236,
+          "thickness_actual": 5.236,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 71.97446105690672
+        },
+        {
+          "surface": 3,
+          "radius_expected": 489.4379,
+          "radius_actual": 489.4379000000007,
+          "thickness_expected": 22.153,
+          "thickness_actual": 22.153,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 72.6606644220099
+        },
+        {
+          "surface": 4,
+          "radius_expected": -343.9589,
+          "radius_actual": -343.9589000000005,
+          "thickness_expected": 1.0,
+          "thickness_actual": 1.0,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 73.59971388895003
+        },
+        {
+          "surface": 5,
+          "radius_expected": 300.6049,
+          "radius_actual": 300.6048999999999,
+          "thickness_expected": 21.654,
+          "thickness_actual": 21.654,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 74.53630555516966
+        },
+        {
+          "surface": 6,
+          "radius_expected": -754.9399,
+          "radius_actual": -754.9399000000022,
+          "thickness_expected": 1.0,
+          "thickness_actual": 1.0,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 74.08437282211553
+        },
+        {
+          "surface": 7,
+          "radius_expected": 210.3952,
+          "radius_actual": 210.39520000000002,
+          "thickness_expected": 21.411,
+          "thickness_actual": 21.411,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 71.82368803707213
+        },
+        {
+          "surface": 8,
+          "radius_expected": -10084.177,
+          "radius_actual": -10084.176999999996,
+          "thickness_expected": 1.0,
+          "thickness_actual": 1.0,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 70.0567311194746
+        },
+        {
+          "surface": 9,
+          "radius_expected": 168.8944,
+          "radius_actual": 168.89439999999993,
+          "thickness_expected": 12.667,
+          "thickness_actual": 12.667,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 65.36559078800127
+        },
+        {
+          "surface": 10,
+          "radius_expected": 91.8488,
+          "radius_actual": 91.84880000000037,
+          "thickness_expected": 25.761,
+          "thickness_actual": 25.761,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 58.141141736961394
+        },
+        {
+          "surface": 11,
+          "radius_expected": 2506.147,
+          "radius_actual": 2506.147,
+          "thickness_expected": 11.953,
+          "thickness_actual": 11.953,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 57.261819465079284
+        },
+        {
+          "surface": 12,
+          "radius_expected": 113.1104,
+          "radius_actual": 113.11039999999996,
+          "thickness_expected": 26.722,
+          "thickness_actual": 26.722,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 54.48070971168122
+        },
+        {
+          "surface": 13,
+          "radius_expected": -205.9002,
+          "radius_actual": -205.90020000000007,
+          "thickness_expected": 10.0,
+          "thickness_actual": 10.0,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 55.07608154567515
+        },
+        {
+          "surface": 14,
+          "radius_expected": 203.1437,
+          "radius_actual": 203.1436999999998,
+          "thickness_expected": 25.66,
+          "thickness_actual": 25.66,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 59.51823378439967
+        },
+        {
+          "surface": 15,
+          "radius_expected": -107.1775,
+          "radius_actual": -107.17750000000004,
+          "thickness_expected": 12.552,
+          "thickness_actual": 12.552,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 59.048836822834346
+        },
+        {
+          "surface": 16,
+          "radius_expected": -1383.124,
+          "radius_actual": -1383.1239999999996,
+          "thickness_expected": 13.743,
+          "thickness_actual": 13.743,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 74.17294154911873
+        },
+        {
+          "surface": 17,
+          "radius_expected": -199.1651,
+          "radius_actual": -199.16510000000014,
+          "thickness_expected": 18.849,
+          "thickness_actual": 18.849,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 75.11962352981568
+        },
+        {
+          "surface": 18,
+          "radius_expected": -146.9585,
+          "radius_actual": -146.95850000000007,
+          "thickness_expected": 1.0,
+          "thickness_actual": 1.0,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 81.49728835381563
+        },
+        {
+          "surface": 19,
+          "radius_expected": 1633.508,
+          "radius_actual": 1633.508000000001,
+          "thickness_expected": 36.177,
+          "thickness_actual": 36.177,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 103.01913818297128
+        },
+        {
+          "surface": 20,
+          "radius_expected": -193.2242,
+          "radius_actual": -193.22420000000002,
+          "thickness_expected": 1.0,
+          "thickness_actual": 1.0,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 104.02933510188886
+        },
+        {
+          "surface": 21,
+          "radius_expected": 413.9511,
+          "radius_actual": 413.95110000000057,
+          "thickness_expected": 37.469,
+          "thickness_actual": 37.469,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 118.08927517396448
+        },
+        {
+          "surface": 22,
+          "radius_expected": -357.2763,
+          "radius_actual": -357.27629999999976,
+          "thickness_expected": 1.0,
+          "thickness_actual": 1.0,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 118.10339608764812
+        },
+        {
+          "surface": 23,
+          "radius_expected": 354.2471,
+          "radius_actual": 354.2470999999999,
+          "thickness_expected": 30.129,
+          "thickness_actual": 30.129,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 115.6334824895046
+        },
+        {
+          "surface": 24,
+          "radius_expected": -861.1354,
+          "radius_actual": -861.1354000000028,
+          "thickness_expected": 1.0,
+          "thickness_actual": 1.0,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 115.17044488665809
+        },
+        {
+          "surface": 25,
+          "radius_expected": 212.5816,
+          "radius_actual": 212.5815999999998,
+          "thickness_expected": 26.345,
+          "thickness_actual": 26.345,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 103.77195447380524
+        },
+        {
+          "surface": 26,
+          "radius_expected": 356.7634,
+          "radius_actual": 356.76339999999993,
+          "thickness_expected": 2.859,
+          "thickness_actual": 2.859,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 98.55655259887301
+        },
+        {
+          "surface": 27,
+          "radius_expected": 143.8041,
+          "radius_actual": 143.80410000000003,
+          "thickness_expected": 17.274,
+          "thickness_actual": 17.274,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 89.4051793881769
+        },
+        {
+          "surface": 28,
+          "radius_expected": 124.1645,
+          "radius_actual": 124.16450000000005,
+          "thickness_expected": 13.618,
+          "thickness_actual": 13.618,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 80.57440666803197
+        },
+        {
+          "surface": 29,
+          "radius_expected": 180.7435,
+          "radius_actual": 180.74350000000013,
+          "thickness_expected": 16.532,
+          "thickness_actual": 16.532,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 79.55120806988896
+        },
+        {
+          "surface": 30,
+          "radius_expected": 112.4036,
+          "radius_actual": 112.40360000000001,
+          "thickness_expected": 32.761,
+          "thickness_actual": 32.761,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 69.5477276392594
+        },
+        {
+          "surface": 31,
+          "radius_expected": -167.6385,
+          "radius_actual": -167.63850000000005,
+          "thickness_expected": 10.0,
+          "thickness_actual": 10.0,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 71.8281988436551
+        },
+        {
+          "surface": 32,
+          "radius_expected": 213.1012,
+          "radius_actual": 213.1011999999999,
+          "thickness_expected": 28.093,
+          "thickness_actual": 28.093,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 71.08247182213029
+        },
+        {
+          "surface": 33,
+          "radius_expected": -117.6042,
+          "radius_actual": -117.60420000000002,
+          "thickness_expected": 14.657,
+          "thickness_actual": 14.657,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 69.9577879556818
+        },
+        {
+          "surface": 34,
+          "radius_expected": 5213.975,
+          "radius_actual": 5213.975000000003,
+          "thickness_expected": 17.248,
+          "thickness_actual": 17.248,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 82.88579344029546
+        },
+        {
+          "surface": 35,
+          "radius_expected": -276.3001,
+          "radius_actual": -276.3001,
+          "thickness_expected": 16.851,
+          "thickness_actual": 16.851,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 84.72926747917381
+        },
+        {
+          "surface": 36,
+          "radius_expected": -195.8018,
+          "radius_actual": -195.8017999999999,
+          "thickness_expected": 23.163,
+          "thickness_actual": 23.163,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 88.92141148644365
+        },
+        {
+          "surface": 37,
+          "radius_expected": -922.636,
+          "radius_actual": -922.6360000000024,
+          "thickness_expected": 28.973,
+          "thickness_actual": 28.973,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 106.53000257582725
+        },
+        {
+          "surface": 38,
+          "radius_expected": -185.4831,
+          "radius_actual": -185.48310000000018,
+          "thickness_expected": 1.0,
+          "thickness_actual": 1.0,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 107.05591160739252
+        },
+        {
+          "surface": 39,
+          "radius_expected": 494.8513,
+          "radius_actual": 494.8513000000004,
+          "thickness_expected": 30.0,
+          "thickness_actual": 30.0,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 125.27329341672473
+        },
+        {
+          "surface": 40,
+          "radius_expected": -807.7331,
+          "radius_actual": -807.7331000000007,
+          "thickness_expected": 1.0,
+          "thickness_actual": 1.0,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 125.78616107424187
+        },
+        {
+          "surface": 41,
+          "radius_expected": 332.863,
+          "radius_actual": 332.8629999999996,
+          "thickness_expected": 35.786,
+          "thickness_actual": 35.786,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 129.96328325438978
+        },
+        {
+          "surface": 42,
+          "radius_expected": -479.989,
+          "radius_actual": -479.988999999999,
+          "thickness_expected": 12.295,
+          "thickness_actual": 12.295,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 130.57460686763
+        },
+        {
+          "surface": 43,
+          "radius_expected": -258.4556,
+          "radius_actual": -258.45560000000023,
+          "thickness_expected": 18.0,
+          "thickness_actual": 18.0,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 132.1596128309294
+        },
+        {
+          "surface": 44,
+          "radius_expected": -912.7617,
+          "radius_actual": -912.761700000004,
+          "thickness_expected": 1.0,
+          "thickness_actual": 1.0,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 134.05388802987804
+        },
+        {
+          "surface": 45,
+          "radius_expected": 317.7747,
+          "radius_actual": 317.7746999999997,
+          "thickness_expected": 35.863,
+          "thickness_actual": 35.863,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 133.6077413559555
+        },
+        {
+          "surface": 46,
+          "radius_expected": -508.2967,
+          "radius_actual": -508.2966999999988,
+          "thickness_expected": 1.0,
+          "thickness_actual": 1.0,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 135.52262309860183
+        },
+        {
+          "surface": 47,
+          "radius_expected": 138.8578,
+          "radius_actual": 138.85779999999994,
+          "thickness_expected": 27.975,
+          "thickness_actual": 27.975,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 105.97668464252082
+        },
+        {
+          "surface": 48,
+          "radius_expected": 275.8559,
+          "radius_actual": 275.8558999999997,
+          "thickness_expected": 1.0,
+          "thickness_actual": 1.0,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 105.97143958318064
+        },
+        {
+          "surface": 49,
+          "radius_expected": 130.7218,
+          "radius_actual": 130.72179999999997,
+          "thickness_expected": 39.838,
+          "thickness_actual": 39.838,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 92.15072222869281
+        },
+        {
+          "surface": 50,
+          "radius_expected": 256.2264,
+          "radius_actual": 256.22639999999996,
+          "thickness_expected": 9.31,
+          "thickness_actual": 9.31,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 79.84154914628076
+        },
+        {
+          "surface": 51,
+          "radius_expected": 1265.876,
+          "radius_actual": 1265.876,
+          "thickness_expected": 36.609,
+          "thickness_actual": 36.609,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 80.9588165131823
+        },
+        {
+          "surface": 52,
+          "radius_expected": 50.0034,
+          "radius_actual": 50.00340000000003,
+          "thickness_expected": 13.611,
+          "thickness_actual": 13.611,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 42.5430080054381
+        },
+        {
+          "surface": 53,
+          "radius_expected": 50.0565,
+          "radius_actual": 50.056500000000085,
+          "thickness_expected": 22.273,
+          "thickness_actual": 22.273,
+          "material": "F_SILICA",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 39.37939080314487
+        },
+        {
+          "surface": 54,
+          "radius_expected": 1595.011,
+          "radius_actual": 1595.011,
+          "thickness_expected": 20.93,
+          "thickness_actual": 20.93,
+          "material": "",
+          "semi_diameter_expected": null,
+          "semi_diameter_actual": 37.247986096385745
+        }
+      ]
+    },
+    "field_object_heights_mm": {
+      "pass": true,
+      "expected": [
+        0.0,
+        36.96,
+        52.8
+      ],
+      "actual": [
+        0.0,
+        36.96,
+        52.8
+      ]
+    },
+    "wavelength_um": {
+      "pass": true,
+      "expected": 0.2484,
+      "actual": 0.2484
+    },
+    "active_wavelength_count": {
+      "pass": true,
+      "expected": 1,
+      "actual": 1
+    },
+    "image_space_na": {
+      "pass": true,
+      "expected": 0.6,
+      "actual": 0.5999999999999996,
+      "zemax_aperture_type": "ObjectSpaceNA",
+      "zemax_aperture_value": 0.18428419912743083
+    },
+    "real_ray_aiming": {
+      "pass": true,
+      "expected": "Real with robust aiming and advanced convergence",
+      "actual": "Real",
+      "method": "Heuristic",
+      "use_robust": true,
+      "use_enhanced": false,
+      "use_advanced_convergence": true
+    },
+    "material_indices": {
+      "pass": true,
+      "details": [
+        {
+          "key": "default",
+          "surface": 1,
+          "pass": true,
+          "expected": 1.50839,
+          "actual": 1.5083270768721861,
+          "material": "F_SILICA"
+        }
+      ]
+    },
+    "total_track_mm": {
+      "pass": true,
+      "expected": 1000.0,
+      "actual": 1000.002,
+      "difference": 0.0019999999999527063
+    },
+    "projection_magnification": {
+      "pass": true,
+      "expected_absolute": 0.25,
+      "actual_signed": -0.2499889269019618,
+      "chief_ray_image_height_mm": -13.199415340423583
+    },
+    "surface_count": {
+      "pass": true,
+      "expected": 56,
+      "actual": 56
+    },
+    "stop_surface": {
+      "pass": true,
+      "expected": 37,
+      "actual": 37
+    },
+    "asphere_supported_terms": {
+      "pass": true,
+      "details": []
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "system_file": "C:\\Users\\smx\\Documents\\专利转为ZEMAX文件\\patent-to-zemax\\validation\\EP0770895A2\\output\\EP0770895A2-embodiment-1.zmx"
+}

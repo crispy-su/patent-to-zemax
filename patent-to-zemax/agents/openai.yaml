@@ -1,0 +1,4 @@
+interface:
+  display_name: "Patent to Zemax"
+  short_description: "Reconstruct patents as audited Zemax models"
+  default_prompt: "Use $patent-to-zemax to reconstruct this optical patent, solve native NA with Real Ray Aiming through ZOS-API, compare the ZOS-API layout with the patent, and optionally prepare an auditable email delivery package for the original patent, final report, and ZMX."

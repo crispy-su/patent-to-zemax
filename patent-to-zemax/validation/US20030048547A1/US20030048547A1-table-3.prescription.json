@@ -1,0 +1,783 @@
+{
+  "patent_id": "US20030048547A1",
+  "embodiment": "table-3",
+  "direction": "mask_to_wafer",
+  "wavelength_um": 0.193304,
+  "magnification": -0.25,
+  "magnification_tolerance": 0.002,
+  "field": {
+    "type": "object_height",
+    "object_heights_mm": [
+      0.0,
+      52.0,
+      56.08
+    ],
+    "image_heights_mm": [
+      0.0,
+      13.0,
+      14.02
+    ],
+    "source": "10.5 x 26 mm rectangular wafer field; 14.02 mm half diagonal; 4x reduction"
+  },
+  "image_space_na": 0.75,
+  "object_distance_mm": 45.96957434,
+  "back_focal_distance_mm": 0.0,
+  "total_track_mm": 1000.0,
+  "total_track_tolerance_mm": 0.002,
+  "object_semi_diameter_mm": 56.08,
+  "image_semi_diameter_mm": 14.02,
+  "stop_surface": 43,
+  "object_space_material_key": "l710",
+  "materials": {
+    "sio2": {
+      "patent_description": "synthetic fused silica SiO2",
+      "patent_index": 1.56028895,
+      "zemax_catalog": "MISC",
+      "zemax_name": "___BLANK",
+      "index_tolerance": 2e-06,
+      "zemax_mode": "model",
+      "catalog_candidate_rejected": "MISC/F_SILICA",
+      "catalog_rejection_reason": "Catalog wavelength validity does not include 0.193304 um; use patent single-wavelength index exactly."
+    },
+    "caf2": {
+      "patent_description": "calcium fluoride",
+      "patent_index": 1.50143563,
+      "zemax_catalog": "MISC",
+      "zemax_name": "___BLANK",
+      "index_tolerance": 2e-06,
+      "zemax_mode": "model",
+      "catalog_candidate_rejected": "MISC/CAF2",
+      "catalog_rejection_reason": "Catalog wavelength validity does not include 0.193304 um; use patent single-wavelength index exactly."
+    },
+    "he": {
+      "patent_description": "helium interspace",
+      "patent_index": 0.999712,
+      "zemax_mode": "model",
+      "zemax_name": "___BLANK",
+      "index_tolerance": 2e-08
+    },
+    "l710": {
+      "patent_description": "air at 950 mbar",
+      "patent_index": 0.999982,
+      "zemax_mode": "model",
+      "zemax_name": "___BLANK",
+      "index_tolerance": 2e-08
+    }
+  },
+  "surfaces": [
+    {
+      "number": 1,
+      "radius_mm": -163.893583594,
+      "thickness_mm": 7.0,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 62.298,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 2,
+      "radius_mm": 543.2768689,
+      "thickness_mm": 6.914746504,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 68.527,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 3,
+      "radius_mm": 4925.150504439,
+      "thickness_mm": 17.003634307,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 70.2,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 4,
+      "radius_mm": -237.663812578,
+      "thickness_mm": 0.7,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 71.892,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 5,
+      "radius_mm": 1399.349047982,
+      "thickness_mm": 18.279497082,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 76.26,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 6,
+      "radius_mm": -282.82229696,
+      "thickness_mm": 0.700000001,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 77.21,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 7,
+      "radius_mm": 485.041831962,
+      "thickness_mm": 19.095677657,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 79.259,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 8,
+      "radius_mm": -448.790019973,
+      "thickness_mm": 0.7,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 79.327,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 9,
+      "radius_mm": 261.052873524,
+      "thickness_mm": 21.940801476,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 77.716,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 10,
+      "radius_mm": -776.40347841,
+      "thickness_mm": 0.7,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 76.687,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 11,
+      "radius_mm": 210.308913355,
+      "thickness_mm": 25.735549153,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 71.175,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 12,
+      "radius_mm": 99.341848189,
+      "thickness_mm": 22.473973608,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 59.883,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 13,
+      "radius_mm": "infinity",
+      "thickness_mm": 8.009409065,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 59.565,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 14,
+      "radius_mm": 130.189257019,
+      "thickness_mm": 24.765647204,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 57.743,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 15,
+      "radius_mm": -236.04420076,
+      "thickness_mm": 7.570027862,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 58.334,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 16,
+      "radius_mm": 225.745307153,
+      "thickness_mm": 1.721089583,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 62.796,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 17,
+      "radius_mm": 249.257978944,
+      "thickness_mm": 10.0,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 63.335,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 18,
+      "radius_mm": 290.876194298,
+      "thickness_mm": 26.689502502,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 65.179,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 19,
+      "radius_mm": -157.850195148,
+      "thickness_mm": 8.0,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 67.322,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 20,
+      "radius_mm": -343.08973,
+      "thickness_mm": 21.241706809,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 74.633,
+      "source_pdf_page": 11,
+      "source_printed_page": 5,
+      "asphere": {
+        "kind": "even_asphere_zernike_characterization",
+        "conic": 10.1373,
+        "even_coefficients": [
+          4.0139591e-08,
+          1.1813452e-13,
+          4.5259406e-17,
+          -2.9594697e-21,
+          1.1174026e-24,
+          -6.2923812e-29,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "normalization_radius_mm": 74.633,
+        "fringe_terms_mm": {
+          "9": 0.22726,
+          "16": 0.00679061,
+          "25": 0.00117273,
+          "36": 0.000100691,
+          "49": -1.16301e-06
+        },
+        "source_note": "Table marks surface 20 with A; text calls it surface No. 21 when counting object plane as surface 1.",
+        "conversion_note": "Use K and C1..C9 in the patent sag equation (C1 starts at r^4). Preserve ZER9..ZER49 as an alternate characterization, not an additive second sag."
+      }
+    },
+    {
+      "number": 21,
+      "radius_mm": -300.686931187,
+      "thickness_mm": 19.035466008,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 85.971,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 22,
+      "radius_mm": -166.339801171,
+      "thickness_mm": 1.155814165,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 88.981,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 23,
+      "radius_mm": 1242.960741027,
+      "thickness_mm": 39.709671515,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 103.381,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 24,
+      "radius_mm": -217.561562194,
+      "thickness_mm": 0.7,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 105.365,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 25,
+      "radius_mm": 873.041438293,
+      "thickness_mm": 28.702760134,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 108.135,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 26,
+      "radius_mm": -394.309651697,
+      "thickness_mm": 0.700000002,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 108.176,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 27,
+      "radius_mm": 168.490233663,
+      "thickness_mm": 42.038473874,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 100.522,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 28,
+      "radius_mm": "infinity",
+      "thickness_mm": 13.298461584,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 97.459,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 29,
+      "radius_mm": 198.769354524,
+      "thickness_mm": 7.491654073,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 79.508,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 30,
+      "radius_mm": 127.110375082,
+      "thickness_mm": 32.181225955,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 72.267,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 31,
+      "radius_mm": -412.500785204,
+      "thickness_mm": 6.0,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 70.633,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 32,
+      "radius_mm": 396.017439811,
+      "thickness_mm": 16.248991558,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 67.019,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 33,
+      "radius_mm": -267.221433894,
+      "thickness_mm": 6.0,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 66.551,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 34,
+      "radius_mm": 168.512314408,
+      "thickness_mm": 36.354622161,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 65.389,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 35,
+      "radius_mm": -122.758597736,
+      "thickness_mm": 6.049883829,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 66.079,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 36,
+      "radius_mm": 766.5236441,
+      "thickness_mm": 27.03340106,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 75.781,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 37,
+      "radius_mm": -159.522,
+      "thickness_mm": 16.39494469,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 77.809,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 38,
+      "radius_mm": -155.641,
+      "thickness_mm": 0.7,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 84.996,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 39,
+      "radius_mm": "infinity",
+      "thickness_mm": 27.995555874,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 101.051,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 40,
+      "radius_mm": -266.01673868,
+      "thickness_mm": 0.890470375,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 103.561,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 41,
+      "radius_mm": "infinity",
+      "thickness_mm": 30.098513441,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 110.668,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 42,
+      "radius_mm": -290.83648517,
+      "thickness_mm": 7.00000001,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 112.215,
+      "source_pdf_page": 11,
+      "source_printed_page": 5
+    },
+    {
+      "number": 43,
+      "radius_mm": "infinity",
+      "thickness_mm": 0.431524267,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 115.718,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 44,
+      "radius_mm": 1323.425726038,
+      "thickness_mm": 33.775984345,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 119.885,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 45,
+      "radius_mm": -354.247417821,
+      "thickness_mm": 0.7,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 120.693,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 46,
+      "radius_mm": 253.851238303,
+      "thickness_mm": 43.981502597,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 119.436,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 47,
+      "radius_mm": -1091.287744312,
+      "thickness_mm": 24.113176044,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 117.882,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 48,
+      "radius_mm": -256.378455601,
+      "thickness_mm": 10.108953957,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 116.975,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 49,
+      "radius_mm": 510547.419151742,
+      "thickness_mm": 13.749960972,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 115.781,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 50,
+      "radius_mm": -549.718956763,
+      "thickness_mm": 46.950737825,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 115.712,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 51,
+      "radius_mm": -237.550046531,
+      "thickness_mm": 0.733009323,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 117.03,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 52,
+      "radius_mm": 152.354106326,
+      "thickness_mm": 27.736146606,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 98.476,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 53,
+      "radius_mm": 340.293718782,
+      "thickness_mm": 0.709804301,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 95.981,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 54,
+      "radius_mm": 131.460836161,
+      "thickness_mm": 25.026141744,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 85.578,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 55,
+      "radius_mm": 293.107264484,
+      "thickness_mm": 10.40479883,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 82.205,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 56,
+      "radius_mm": 1251.239137872,
+      "thickness_mm": 12.817811407,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 81.001,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 57,
+      "radius_mm": 260.342262866,
+      "thickness_mm": 1.378798137,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 70.436,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 58,
+      "radius_mm": 130.810580199,
+      "thickness_mm": 34.683194416,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 64.39,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 59,
+      "radius_mm": 55.085948639,
+      "thickness_mm": 0.7,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 41.181,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 60,
+      "radius_mm": 52.721068002,
+      "thickness_mm": 33.14044695,
+      "material_key": "caf2",
+      "index_after": 1.50143563,
+      "semi_diameter_mm": 40.631,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 61,
+      "radius_mm": 357.005545933,
+      "thickness_mm": 2.868260812,
+      "material_key": "he",
+      "index_after": 0.999712,
+      "semi_diameter_mm": 30.936,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 62,
+      "radius_mm": "infinity",
+      "thickness_mm": 3.0,
+      "material_key": "sio2",
+      "index_after": 1.56028895,
+      "semi_diameter_mm": 29.212,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    },
+    {
+      "number": 63,
+      "radius_mm": "infinity",
+      "thickness_mm": 12.0,
+      "material_key": "l710",
+      "index_after": 0.999982,
+      "semi_diameter_mm": 27.572,
+      "source_pdf_page": 12,
+      "source_printed_page": 6
+    }
+  ],
+  "evidence": [
+    {
+      "field": "surfaces[1..63] radius, thickness, material, semi-diameter",
+      "classification": "copied",
+      "confidence": 0.995,
+      "reason": "Visually checked against rendered Table 3 and Table 3 continued",
+      "source_page": 11,
+      "source_location": "PDF pages 11-12 / printed pages 5-6"
+    },
+    {
+      "field": "surface 20 even-asphere and Fringe Zernike data",
+      "classification": "copied",
+      "confidence": 0.99,
+      "reason": "Copied from the aspheric constants block immediately below Table 3",
+      "source_page": 12,
+      "source_location": "printed page 6"
+    },
+    {
+      "field": "surface 20 numbering interpretation",
+      "classification": "derived",
+      "confidence": 0.98,
+      "reason": "Table marks row 20 A and L10 image-side surface; prose surface No.21 includes object plane as surface 1",
+      "source_page": 12,
+      "source_location": "Table 3 and paragraph 0033"
+    },
+    {
+      "field": "field.object_heights_mm",
+      "classification": "derived",
+      "confidence": 0.98,
+      "reason": "Mask heights derived from 10.5 x 26 mm wafer field and 4x reduction",
+      "source_page": 11,
+      "source_location": "paragraph 0037",
+      "calculation": "wafer half diagonal sqrt(5.25^2+13^2)=14.020 mm; mask half diagonal=56.08 mm"
+    },
+    {
+      "field": "stop_surface",
+      "classification": "copied",
+      "confidence": 0.99,
+      "reason": "Prose places diaphragm between L21 and L22; Table 3 has plane gas surface 43 between those lenses",
+      "source_page": 11,
+      "source_location": "paragraph 0036 and Table 3"
+    },
+    {
+      "field": "material mappings",
+      "classification": "inferred",
+      "confidence": 0.95,
+      "reason": "All four media use exact patent indices as wavelength-local model media; bundled MISC F_SILICA/CAF2 catalogs are outside their wavelength validity at 193.304 nm.",
+      "source_page": 12,
+      "source_location": "Table 3 and L710 note"
+    },
+    {
+      "field": "Zernike characterization interpretation",
+      "classification": "inferred",
+      "confidence": 0.97,
+      "reason": "The ZER values are retained as an alternate characterization of the same asphere. Adding them to C1..C9 changes the paraxial magnification from the specified 1/4 to about 0.260, while C1..C9 alone reproduces 0.25 across the field.",
+      "source_page": 12,
+      "source_location": "asphere block"
+    }
+  ]
+}
