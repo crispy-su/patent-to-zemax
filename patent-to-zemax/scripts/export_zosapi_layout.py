@@ -30,23 +30,32 @@ def main():
                 coeff.append(float(cell.DoubleValue) if cell.IsActive else 0.0)
             rows.append({"number":i,"z":z,"radius":radius,"thickness":thickness,"semi":semi,"index":index,"conic":float(s.Conic),"coeff":coeff})
             z+=thickness
-        image_z=rows[-1]["z"];W,H,S=2200,850,2;padx,pady=90,55;maxy=max(r["semi"] for r in rows)*1.08
+        image_z=rows[-1]["z"];W,H,S=2200,850,2;padx,pady=90,55
+        finite_semis=[r["semi"] for r in rows if math.isfinite(r["semi"]) and r["semi"]>0]
+        if not finite_semis:raise RuntimeError("ZOS-API returned no finite semi-diameters")
+        display_cap=max(finite_semis);nonfinite_surfaces=[]
+        for r in rows:
+            if not math.isfinite(r["semi"]):
+                nonfinite_surfaces.append(r["number"]);r["semi_display"]=display_cap
+            else:r["semi_display"]=r["semi"]
+        maxy=max(r["semi_display"] for r in rows)*1.08
         def px(x):return int((padx+(x/image_z)*(W-2*padx))*S)
         def py(y):return int((H/2-y/maxy*(H/2-pady))*S)
         im=Image.new("RGB",(W*S,H*S),"white");draw=ImageDraw.Draw(im);draw.line((px(0),py(0),px(image_z),py(0)),fill=(90,90,90),width=2*S)
         for i,s in enumerate(rows[:-1]):
             if s["index"]<=1.05:continue
-            e=rows[i+1];radius=min(s["semi"],e["semi"]);ys=[-radius+2*radius*j/80 for j in range(81)]
+            e=rows[i+1];radius=min(s["semi_display"],e["semi_display"]);ys=[-radius+2*radius*j/80 for j in range(81)]
             left=[(px(s["z"]+sag(s["radius"],y,s["conic"],s["coeff"])),py(y)) for y in ys]
             right=[(px(e["z"]+sag(e["radius"],y,e["conic"],e["coeff"])),py(y)) for y in reversed(ys)]
             color=(224,245,225) if 1.48<s["index"]<1.53 else (205,226,255)
             draw.polygon(left+right,fill=color,outline=(20,45,75))
-        envelope=[(px(r["z"]),py(r["semi"])) for r in rows];draw.line(envelope,fill=(70,120,170),width=S);draw.line([(x,2*py(0)-y) for x,y in envelope],fill=(70,120,170),width=S)
-        stop=int(system.LDE.StopSurface);st=rows[stop];draw.line((px(st["z"]),py(st["semi"]),px(st["z"]),py(-st["semi"])),fill=(210,40,40),width=2*S)
+        envelope=[(px(r["z"]),py(r["semi_display"])) for r in rows];draw.line(envelope,fill=(70,120,170),width=S);draw.line([(x,2*py(0)-y) for x,y in envelope],fill=(70,120,170),width=S)
+        stop=int(system.LDE.StopSurface);st=rows[stop];draw.line((px(st["z"]),py(st["semi_display"]),px(st["z"]),py(-st["semi_display"])),fill=(210,40,40),width=2*S)
         wavelength=float(system.SystemData.Wavelengths.GetWavelength(1).Wavelength);na=float(system.MFE.GetOperandValue(ZOSAPI.Editors.MFE.MeritOperandType.ISNA,0,0,0,0,0,0,0,0))
         aperture_type=str(system.SystemData.Aperture.ApertureType);ray_aiming=str(system.SystemData.RayAiming.RayAiming)
         if aperture_type!="ObjectSpaceNA" or ray_aiming!="Real":raise RuntimeError(f"layout export requires ObjectSpaceNA and Real Ray Aiming; got {aperture_type}, {ray_aiming}")
         draw.text((px(0),18*S),f"{ns.zmx.stem} - ZOS-API LDE export",fill=(0,0,0));draw.text((px(0),40*S),f"{aperture_type} | image NA {na:.6f} | Real Ray Aiming | wavelength {wavelength*1000:.3f} nm | surfaces {count} | track {image_z:.6f} mm",fill=(50,50,50))
+        if nonfinite_surfaces:draw.text((px(0),62*S),f"Display warning: non-finite automatic semi-diameters capped only in this layout on surfaces {nonfinite_surfaces}; ZMX unchanged.",fill=(180,40,40))
         ns.output.parent.mkdir(parents=True,exist_ok=True);im.resize((W,H),Image.Resampling.LANCZOS).save(ns.output);print(ns.output)
     finally:
         if app is not None:

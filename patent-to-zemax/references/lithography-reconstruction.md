@@ -2,9 +2,9 @@
 
 - Keep mask -> wafer orientation unless explicitly reversed.
 - Use Zemax Object Height for mask-side field. For magnification `m`, derive `object_height = image_height / abs(m)`.
-- Store patent image-side NA separately. Set the OpticStudio aperture type to `ObjectSpaceNA`, enable Real Ray Aiming, and tune OBNA until `ISNA` matches the target. The solved OBNA value is generally not equal to the patent image-side NA.
+- Store patent image-side NA separately. For finite-conjugate projection systems set `OBNA = image-side NA * abs(signed magnification)` (or divide by the positive reduction ratio). Keep `ISNA` as an independent readback; do not tune OBNA to force it.
 - Use the patent wavelength in micrometres. Validate catalog wavelength limits before checking its index. If the patent wavelength is outside the catalog range, prefer the printed single-wavelength index as a Zemax model medium and retain the rejected catalog mapping in the evidence.
-- Copy printed half free diameters as semi-diameters; do not halve them again.
+- Keep Clear Semi-Diameters Automatic. Retain printed half free diameters in the evidence model for clipping checks, but do not write them as Fixed LDE values.
 - Parse the printed sag equation. Some lithography patents define `C1 h^4`; Zemax also exposes an `r^2` cell, which must remain zero in that convention.
 - A Zernike list printed below an even-asphere prescription may characterize the same surface rather than add a second sag. Preserve both representations and reject an additive interpretation if it contradicts the printed reduction ratio or field mapping.
 - A stop described only as "between" two lenses has uncertain axial location. Coinciding it with an adjacent surface is an inference and must be reported.
