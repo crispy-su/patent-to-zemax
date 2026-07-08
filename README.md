@@ -17,6 +17,8 @@
 
 ### 安装与使用
 直接将链接扔给Codex，让他安装即可
+
+
 将 `patent-to-zemax` 目录复制到个人 Codex skills 目录：
 
 ```powershell
