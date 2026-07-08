@@ -137,7 +137,11 @@ def configure_and_verify(d,zmx_path,log_path):
         material_map=d.get("materials",{"default":d.get("material")})
         for key,material in material_map.items():
             if material is None:continue
-            surface_no=next(s["number"] for s in d["surfaces"] if s.get("material_key","default")==key)
+            candidates=[s["number"] for s in d["surfaces"] if s.get("material_key","default")==key]
+            if candidates:surface_no=candidates[0]
+            elif d.get("object_space_material_key")==key:surface_no=0
+            else:
+                material_checks.append({"key":key,"pass":False,"error":"material is declared but unused"});continue
             index=float(system.MFE.GetOperandValue(ZOSAPI.Editors.MFE.MeritOperandType.INDX,surface_no,1,0,0,0,0,0,0))
             material_checks.append({"key":key,"surface":surface_no,"pass":abs(index-material["patent_index"])<=material["index_tolerance"],"expected":material["patent_index"],"actual":index,"material":material["zemax_name"]})
         actual_fields=[float(fields.GetField(i).Y) for i in range(1,fields.NumberOfFields+1)]
