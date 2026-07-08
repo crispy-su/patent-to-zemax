@@ -16,7 +16,7 @@
 - 可准备包含原专利、最终报告和 ZMX 的 Outlook 邮件草稿；实际发送需要再次确认。
 
 ### 安装与使用
-
+直接将链接扔给Codex，让他安装即可
 将 `patent-to-zemax` 目录复制到个人 Codex skills 目录：
 
 ```powershell
